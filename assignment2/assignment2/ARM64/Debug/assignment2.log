@@ -1,0 +1,15 @@
+﻿  guild.cpp
+  tester_1.cpp
+C:\Users\anastasiyazozulyuk\source\repos\assignment2\barbarian.h(30,54): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'tester_1.cpp')
+      C:\Users\anastasiyazozulyuk\source\repos\assignment2\barbarian.h(30,54):
+      the template instantiation context (the oldest one first) is
+          C:\Users\anastasiyazozulyuk\source\repos\assignment2\tester_1.cpp(76,62):
+          see reference to class template instantiation 'seneca::Barbarian<double,seneca::Fireball,seneca::Sword>' being compiled
+          C:\Users\anastasiyazozulyuk\source\repos\assignment2\barbarian.h(28,13):
+          while compiling class template member function 'int seneca::Barbarian<double,seneca::Fireball,seneca::Sword>::getAttackAmnt(void) const'
+              C:\Users\anastasiyazozulyuk\source\repos\assignment2\barbarian.h(48,23):
+              see the first reference to 'seneca::Barbarian<double,seneca::Fireball,seneca::Sword>::getAttackAmnt' in 'seneca::Barbarian<double,seneca::Fireball,seneca::Sword>::attack'
+  
+  Generating Code...
+  assignment2.vcxproj -> C:\Users\anastasiyazozulyuk\source\repos\assignment2\ARM64\Debug\assignment2.exe
