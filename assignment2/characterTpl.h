@@ -40,8 +40,8 @@ namespace seneca {
                 std::cout << getName() << " has been defeated!" << std::endl;
             }
             else {
-                std::cout << getName() << " took " << dmg
-                    << " damage, " << getHealth()
+    
+std::cout << "    " << getName() << " took " << dmg                    << " damage, " << getHealth()
                     << " health remaining." << std::endl;
             }
         }
