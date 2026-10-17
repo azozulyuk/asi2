@@ -32,19 +32,20 @@ namespace seneca {
         }
 
 
-        void takeDamage(int dmg) override {
-            m_health -= dmg;
+       void takeDamage(int dmg) override {
+    m_health -= dmg;
 
-            if (getHealth() <= 0) {
-                m_health = 0;
-                std::cout << getName() << " has been defeated!" << std::endl;
-            }
-            else {
-    
-std::cout << "    " << getName() << " took " << dmg                    << " damage, " << getHealth()
-                    << " health remaining." << std::endl;
-            }
-        }
+    if (getHealth() <= 0) {
+        m_health = 0;
+        std::cout << "    " << getName()
+                  << " has been defeated!" << std::endl;
+    }
+    else {
+        std::cout << "    " << getName() << " took " << dmg
+                  << " damage, " << getHealth()
+                  << " health remaining." << std::endl;
+    }
+}
              int getHealth() const override {
             return static_cast<int>(m_health);
         }
